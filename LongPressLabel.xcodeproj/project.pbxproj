@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		D33DCF891F8C791A00A74721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DCF881F8C791A00A74721 /* AppDelegate.m */; };
 		D33DCF8C1F8C791A00A74721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DCF8B1F8C791A00A74721 /* ViewController.m */; };
-		D33DCF8F1F8C791A00A74721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33DCF8D1F8C791A00A74721 /* Main.storyboard */; };
 		D33DCF911F8C791A00A74721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33DCF901F8C791A00A74721 /* Assets.xcassets */; };
 		D33DCF941F8C791A00A74721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33DCF921F8C791A00A74721 /* LaunchScreen.storyboard */; };
 		D33DCF971F8C791A00A74721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DCF961F8C791A00A74721 /* main.m */; };
 		D33DCFA11F8C791A00A74721 /* LongPressLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DCFA01F8C791A00A74721 /* LongPressLabelTests.m */; };
+		D33DCFAD1F8C794F00A74721 /* LongPressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DCFAC1F8C794F00A74721 /* LongPressLabel.m */; };
+		D33DCFB01F8CA9DC00A74721 /* LXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DCFAF1F8CA9DC00A74721 /* LXTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,6 @@
 		D33DCF881F8C791A00A74721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D33DCF8A1F8C791A00A74721 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D33DCF8B1F8C791A00A74721 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D33DCF8E1F8C791A00A74721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D33DCF901F8C791A00A74721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33DCF931F8C791A00A74721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33DCF951F8C791A00A74721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +40,10 @@
 		D33DCF9C1F8C791A00A74721 /* LongPressLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33DCFA01F8C791A00A74721 /* LongPressLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongPressLabelTests.m; sourceTree = "<group>"; };
 		D33DCFA21F8C791A00A74721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33DCFAB1F8C794F00A74721 /* LongPressLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongPressLabel.h; sourceTree = "<group>"; };
+		D33DCFAC1F8C794F00A74721 /* LongPressLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongPressLabel.m; sourceTree = "<group>"; };
+		D33DCFAE1F8CA9DC00A74721 /* LXTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXTextView.h; sourceTree = "<group>"; };
+		D33DCFAF1F8CA9DC00A74721 /* LXTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,10 @@
 				D33DCF881F8C791A00A74721 /* AppDelegate.m */,
 				D33DCF8A1F8C791A00A74721 /* ViewController.h */,
 				D33DCF8B1F8C791A00A74721 /* ViewController.m */,
-				D33DCF8D1F8C791A00A74721 /* Main.storyboard */,
+				D33DCFAB1F8C794F00A74721 /* LongPressLabel.h */,
+				D33DCFAC1F8C794F00A74721 /* LongPressLabel.m */,
+				D33DCFAE1F8CA9DC00A74721 /* LXTextView.h */,
+				D33DCFAF1F8CA9DC00A74721 /* LXTextView.m */,
 				D33DCF901F8C791A00A74721 /* Assets.xcassets */,
 				D33DCF921F8C791A00A74721 /* LaunchScreen.storyboard */,
 				D33DCF951F8C791A00A74721 /* Info.plist */,
@@ -187,7 +194,6 @@
 			files = (
 				D33DCF941F8C791A00A74721 /* LaunchScreen.storyboard in Resources */,
 				D33DCF911F8C791A00A74721 /* Assets.xcassets in Resources */,
-				D33DCF8F1F8C791A00A74721 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33DCFAD1F8C794F00A74721 /* LongPressLabel.m in Sources */,
 				D33DCF8C1F8C791A00A74721 /* ViewController.m in Sources */,
 				D33DCF971F8C791A00A74721 /* main.m in Sources */,
+				D33DCFB01F8CA9DC00A74721 /* LXTextView.m in Sources */,
 				D33DCF891F8C791A00A74721 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,14 +238,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D33DCF8D1F8C791A00A74721 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D33DCF8E1F8C791A00A74721 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D33DCF921F8C791A00A74721 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = LongPressLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okdeer.LongPressLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = LongPressLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okdeer.LongPressLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
